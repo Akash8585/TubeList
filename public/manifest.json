@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Tube List",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/*",
+    "https://accounts.google.com/*",
+    "https://youtube.googleapis.com/*"
+  ],
+  "oauth2": {
+    "client_id":"661294506217-md7h9u3kniamt7knkpqk6k2s9hevf4l7.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/youtube.readonly"
+    ]
+  }
+  
+}
